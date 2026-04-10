@@ -1,0 +1,542 @@
+subject,predicate,object
+Acquired Abnormality,co-occurs_with,Injury or Poisoning
+Acquired Abnormality,isa,Anatomical Abnormality
+Acquired Abnormality,result_of,Behavior
+Activity,isa,Event
+Age Group,isa,Group
+Amino Acid Sequence,isa,Molecular Sequence
+Amino Acid Sequence,property_of,"Amino Acid, Peptide, or Protein"
+Amino Acid Sequence,property_of,Gene or Genome
+"Amino Acid, Peptide, or Protein",consists_of,"Amino Acid, Peptide, or Protein"
+"Amino Acid, Peptide, or Protein",isa,Organic Chemical
+Amphibian,isa,Vertebrate
+Anatomical Abnormality,affects,Organism
+Anatomical Abnormality,affects,Physiologic Function
+Anatomical Abnormality,associated_with,Organism Attribute
+Anatomical Abnormality,co-occurs_with,Anatomical Abnormality
+Anatomical Abnormality,complicates,Anatomical Abnormality
+Anatomical Abnormality,isa,Anatomical Structure
+Anatomical Abnormality,location_of,Pathologic Function
+Anatomical Abnormality,manifestation_of,Biologic Function
+Anatomical Abnormality,occurs_in,Group
+Anatomical Abnormality,result_of,Anatomical Abnormality
+Anatomical Abnormality,result_of,Health Care Activity
+Anatomical Abnormality,result_of,Phenomenon or Process
+Anatomical Structure,isa,Physical Object
+Anatomical Structure,location_of,Bacterium
+Anatomical Structure,location_of,Fungus
+Anatomical Structure,location_of,Virus
+Anatomical Structure,part_of,Organism
+Animal,exhibits,Behavior
+Animal,isa,Eukaryote
+Antibiotic,isa,Pharmacologic Substance
+Archaeon,isa,Organism
+Bacterium,causes,Pathologic Function
+Bacterium,isa,Organism
+Bacterium,location_of,Biologically Active Substance
+Behavior,affects,Behavior
+Behavior,affects,Mental Process
+Behavior,associated_with,Geographic Area
+Behavior,associated_with,Group Attribute
+Behavior,associated_with,Group
+Behavior,associated_with,Occupation or Discipline
+Behavior,associated_with,Organism Attribute
+Behavior,isa,Activity
+Behavior,manifestation_of,Mental Process
+Behavior,manifestation_of,Mental or Behavioral Dysfunction
+Behavior,result_of,Mental Process
+Biologic Function,affects,Organism
+Biologic Function,isa,Natural Phenomenon or Process
+Biologic Function,process_of,Organism
+Biologic Function,produces,Biologically Active Substance
+Biologic Function,produces,Body Substance
+Biologically Active Substance,associated_with,Virus
+Biologically Active Substance,complicates,Anatomical Abnormality
+Biologically Active Substance,complicates,Biologic Function
+Biologically Active Substance,complicates,Injury or Poisoning
+Biologically Active Substance,disrupts,Embryonic Structure
+Biologically Active Substance,disrupts,Fully Formed Anatomical Structure
+Biologically Active Substance,disrupts,Physiologic Function
+Biologically Active Substance,isa,Chemical Viewed Functionally
+Biomedical Occupation or Discipline,isa,Occupation or Discipline
+Biomedical or Dental Material,isa,Chemical Viewed Functionally
+Bird,isa,Vertebrate
+Body Location or Region,adjacent_to,Body Location or Region
+Body Location or Region,adjacent_to,"Body Part, Organ, or Organ Component"
+Body Location or Region,adjacent_to,Body Space or Junction
+Body Location or Region,conceptual_part_of,Body Location or Region
+Body Location or Region,conceptual_part_of,Body System
+Body Location or Region,conceptual_part_of,Fully Formed Anatomical Structure
+Body Location or Region,connected_to,Body Location or Region
+Body Location or Region,isa,Spatial Concept
+Body Location or Region,location_of,Anatomical Abnormality
+Body Location or Region,location_of,Biologic Function
+Body Location or Region,location_of,Body Location or Region
+Body Location or Region,location_of,"Body Part, Organ, or Organ Component"
+Body Location or Region,location_of,Diagnostic Procedure
+Body Location or Region,location_of,Injury or Poisoning
+Body Location or Region,location_of,Therapeutic or Preventive Procedure
+Body Location or Region,location_of,Tissue
+Body Location or Region,traverses,Body Location or Region
+"Body Part, Organ, or Organ Component",adjacent_to,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",adjacent_to,Body Space or Junction
+"Body Part, Organ, or Organ Component",adjacent_to,Cell
+"Body Part, Organ, or Organ Component",adjacent_to,Tissue
+"Body Part, Organ, or Organ Component",branch_of,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",conceptual_part_of,Body System
+"Body Part, Organ, or Organ Component",connected_to,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",connected_to,Body Space or Junction
+"Body Part, Organ, or Organ Component",connected_to,Body Substance
+"Body Part, Organ, or Organ Component",connected_to,Tissue
+"Body Part, Organ, or Organ Component",consists_of,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",consists_of,Body Substance
+"Body Part, Organ, or Organ Component",developmental_form_of,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",interconnects,Body Space or Junction
+"Body Part, Organ, or Organ Component",isa,Fully Formed Anatomical Structure
+"Body Part, Organ, or Organ Component",location_of,Body Location or Region
+"Body Part, Organ, or Organ Component",location_of,Body Space or Junction
+"Body Part, Organ, or Organ Component",location_of,Diagnostic Procedure
+"Body Part, Organ, or Organ Component",location_of,Therapeutic or Preventive Procedure
+"Body Part, Organ, or Organ Component",part_of,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",surrounds,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",surrounds,Tissue
+"Body Part, Organ, or Organ Component",traverses,"Body Part, Organ, or Organ Component"
+"Body Part, Organ, or Organ Component",tributary_of,"Body Part, Organ, or Organ Component"
+Body Space or Junction,adjacent_to,Body Space or Junction
+Body Space or Junction,conceptual_part_of,Body System
+Body Space or Junction,conceptual_part_of,Fully Formed Anatomical Structure
+Body Space or Junction,connected_to,Tissue
+Body Space or Junction,contains,"Body Part, Organ, or Organ Component"
+Body Space or Junction,contains,Body Substance
+Body Space or Junction,contains,Tissue
+Body Space or Junction,interconnects,Cell
+Body Space or Junction,isa,Spatial Concept
+Body Space or Junction,location_of,Anatomical Abnormality
+Body Space or Junction,location_of,Biologic Function
+Body Space or Junction,location_of,Body Space or Junction
+Body Space or Junction,location_of,Body Substance
+Body Space or Junction,location_of,Cell Component
+Body Space or Junction,location_of,Diagnostic Procedure
+Body Space or Junction,location_of,Injury or Poisoning
+Body Space or Junction,location_of,Therapeutic or Preventive Procedure
+Body Space or Junction,part_of,"Body Part, Organ, or Organ Component"
+Body Space or Junction,surrounds,Body Space or Junction
+Body Space or Junction,surrounds,Cell
+Body Substance,conceptual_part_of,Body System
+Body Substance,consists_of,Body Substance
+Body Substance,consists_of,Organic Chemical
+Body Substance,derivative_of,Tissue
+Body Substance,isa,Substance
+Body Substance,part_of,"Body Part, Organ, or Organ Component"
+Body Substance,part_of,Body Substance
+Body Substance,surrounds,Embryonic Structure
+Body System,conceptual_part_of,Body System
+Body System,conceptual_part_of,Fully Formed Anatomical Structure
+Body System,isa,Functional Concept
+Carbohydrate Sequence,isa,Molecular Sequence
+Cell Component,adjacent_to,Body Space or Junction
+Cell Component,adjacent_to,Cell Component
+Cell Component,affects,Physiologic Function
+Cell Component,conceptual_part_of,Body System
+Cell Component,isa,Fully Formed Anatomical Structure
+Cell Component,location_of,Body Space or Junction
+Cell Component,location_of,Diagnostic Procedure
+Cell Component,location_of,Therapeutic or Preventive Procedure
+Cell Component,part_of,"Body Part, Organ, or Organ Component"
+Cell Component,part_of,Cell Component
+Cell Component,part_of,Cell
+Cell Component,part_of,Tissue
+Cell Component,surrounds,Cell Component
+Cell Function,isa,Physiologic Function
+Cell or Molecular Dysfunction,isa,Pathologic Function
+Cell,adjacent_to,Cell
+Cell,conceptual_part_of,Body System
+Cell,consists_of,Cell
+Cell,developmental_form_of,Cell
+Cell,isa,Fully Formed Anatomical Structure
+Cell,location_of,Body Space or Junction
+Cell,location_of,Diagnostic Procedure
+Cell,location_of,Therapeutic or Preventive Procedure
+Cell,part_of,"Body Part, Organ, or Organ Component"
+Cell,part_of,Cell
+Cell,part_of,Tissue
+Chemical Viewed Functionally,isa,Chemical
+Chemical Viewed Structurally,isa,Chemical
+Chemical,affects,Natural Phenomenon or Process
+Chemical,interacts_with,Chemical
+Chemical,isa,Substance
+Classification,isa,Intellectual Product
+Clinical Attribute,isa,Organism Attribute
+Clinical Drug,isa,Manufactured Object
+Conceptual Entity,isa,Entity
+Congenital Abnormality,isa,Anatomical Abnormality
+Daily or Recreational Activity,associated_with,Anatomical Abnormality
+Daily or Recreational Activity,associated_with,Injury or Poisoning
+Daily or Recreational Activity,associated_with,Pathologic Function
+Daily or Recreational Activity,isa,Activity
+Diagnostic Procedure,affects,Patient or Disabled Group
+Diagnostic Procedure,analyzes,Body Substance
+Diagnostic Procedure,analyzes,Chemical
+Diagnostic Procedure,assesses_effect_of,Chemical
+Diagnostic Procedure,diagnoses,Anatomical Abnormality
+Diagnostic Procedure,diagnoses,Injury or Poisoning
+Diagnostic Procedure,diagnoses,Pathologic Function
+Diagnostic Procedure,isa,Health Care Activity
+Diagnostic Procedure,measures,Body Substance
+Diagnostic Procedure,measures,Chemical
+Diagnostic Procedure,measures,Natural Phenomenon or Process
+Diagnostic Procedure,measures,Organism Attribute
+Diagnostic Procedure,measures,Quantitative Concept
+Diagnostic Procedure,measures,Temporal Concept
+Diagnostic Procedure,method_of,Diagnostic Procedure
+Diagnostic Procedure,precedes,Therapeutic or Preventive Procedure
+Diagnostic Procedure,uses,Manufactured Object
+Diagnostic Procedure,uses,Pharmacologic Substance
+Disease or Syndrome,conceptually_related_to,Experimental Model of Disease
+Disease or Syndrome,isa,Pathologic Function
+Disease or Syndrome,produces,Tissue
+Drug Delivery Device,contains,Clinical Drug
+Drug Delivery Device,isa,Medical Device
+Educational Activity,isa,Occupational Activity
+"Element, Ion, or Isotope",isa,Chemical Viewed Structurally
+Embryonic Structure,contains,Body Substance
+Embryonic Structure,developmental_form_of,"Body Part, Organ, or Organ Component"
+Embryonic Structure,developmental_form_of,Cell
+Embryonic Structure,developmental_form_of,Embryonic Structure
+Embryonic Structure,developmental_form_of,Tissue
+Embryonic Structure,interconnects,Embryonic Structure
+Embryonic Structure,isa,Anatomical Structure
+Embryonic Structure,location_of,Biologic Function
+Embryonic Structure,part_of,Cell
+Embryonic Structure,part_of,Embryonic Structure
+Embryonic Structure,surrounds,Cell
+Embryonic Structure,surrounds,Embryonic Structure
+Entity,issue_in,Occupation or Discipline
+Environmental Effect of Humans,isa,Human-caused Phenomenon or Process
+Enzyme,isa,Biologically Active Substance
+Eukaryote,isa,Organism
+Event,issue_in,Occupation or Discipline
+Experimental Model of Disease,isa,Pathologic Function
+Family Group,isa,Group
+Finding,associated_with,Anatomical Abnormality
+Finding,associated_with,Injury or Poisoning
+Finding,associated_with,Pathologic Function
+Finding,co-occurs_with,Finding
+Finding,evaluation_of,Biologic Function
+Finding,evaluation_of,Organism Attribute
+Finding,isa,Conceptual Entity
+Finding,manifestation_of,Anatomical Abnormality
+Finding,manifestation_of,Biologic Function
+Finding,manifestation_of,Injury or Poisoning
+Fish,isa,Vertebrate
+Food,affects,Biologic Function
+Food,isa,Substance
+Fully Formed Anatomical Structure,contains,Body Substance
+Fully Formed Anatomical Structure,isa,Anatomical Structure
+Fully Formed Anatomical Structure,location_of,Anatomical Abnormality
+Fully Formed Anatomical Structure,location_of,Biologic Function
+Fully Formed Anatomical Structure,location_of,Injury or Poisoning
+Fully Formed Anatomical Structure,produces,Biologically Active Substance
+Fully Formed Anatomical Structure,produces,Body Substance
+Fully Formed Anatomical Structure,produces,Organic Chemical
+Functional Concept,isa,Idea or Concept
+Fungus,causes,Pathologic Function
+Fungus,isa,Eukaryote
+Fungus,location_of,Biologically Active Substance
+Gene or Genome,affects,Physiologic Function
+Gene or Genome,carries_out,Molecular Function
+Gene or Genome,consists_of,Gene or Genome
+Gene or Genome,isa,Fully Formed Anatomical Structure
+Gene or Genome,part_of,"Body Part, Organ, or Organ Component"
+Gene or Genome,part_of,Cell Component
+Gene or Genome,part_of,Cell
+Gene or Genome,part_of,Tissue
+Genetic Function,isa,Molecular Function
+Genetic Function,produces,Cell Component
+Geographic Area,associated_with,Anatomical Abnormality
+Geographic Area,associated_with,Injury or Poisoning
+Geographic Area,associated_with,Pathologic Function
+Geographic Area,isa,Spatial Concept
+Governmental or Regulatory Activity,isa,Occupational Activity
+Group Attribute,isa,Conceptual Entity
+Group Attribute,property_of,Group
+Group,exhibits,Behavior
+Group,interacts_with,Group
+Group,isa,Conceptual Entity
+Group,performs,Activity
+Group,produces,Intellectual Product
+Group,produces,Manufactured Object
+Group,uses,Intellectual Product
+Group,uses,Manufactured Object
+Hazardous or Poisonous Substance,complicates,Anatomical Abnormality
+Hazardous or Poisonous Substance,complicates,Biologic Function
+Hazardous or Poisonous Substance,complicates,Injury or Poisoning
+Hazardous or Poisonous Substance,disrupts,Embryonic Structure
+Hazardous or Poisonous Substance,disrupts,Fully Formed Anatomical Structure
+Hazardous or Poisonous Substance,disrupts,Physiologic Function
+Hazardous or Poisonous Substance,isa,Chemical Viewed Functionally
+Health Care Activity,affects,Biologic Function
+Health Care Activity,isa,Occupational Activity
+Health Care Related Organization,isa,Organization
+Health Care Related Organization,manages,Patient or Disabled Group
+Hormone,isa,Biologically Active Substance
+Human-caused Phenomenon or Process,isa,Phenomenon or Process
+Human,isa,Mammal
+Idea or Concept,conceptual_part_of,Behavior
+Idea or Concept,isa,Conceptual Entity
+Idea or Concept,result_of,Mental Process
+Immunologic Factor,indicates,Bacterium
+Immunologic Factor,indicates,Pathologic Function
+Immunologic Factor,indicates,Virus
+Immunologic Factor,isa,Biologically Active Substance
+"Indicator, Reagent, or Diagnostic Aid",isa,Chemical Viewed Functionally
+Individual Behavior,associated_with,Anatomical Abnormality
+Individual Behavior,associated_with,Injury or Poisoning
+Individual Behavior,associated_with,Pathologic Function
+Individual Behavior,conceptually_related_to,Idea or Concept
+Individual Behavior,isa,Behavior
+Individual Behavior,process_of,Social Behavior
+Injury or Poisoning,associated_with,Organism Attribute
+Injury or Poisoning,co-occurs_with,Injury or Poisoning
+Injury or Poisoning,complicates,Anatomical Abnormality
+Injury or Poisoning,complicates,Pathologic Function
+Injury or Poisoning,disrupts,Embryonic Structure
+Injury or Poisoning,disrupts,Fully Formed Anatomical Structure
+Injury or Poisoning,disrupts,Physiologic Function
+Injury or Poisoning,isa,Phenomenon or Process
+Injury or Poisoning,occurs_in,Group
+Injury or Poisoning,result_of,Behavior
+Injury or Poisoning,result_of,Health Care Activity
+Inorganic Chemical,isa,Chemical Viewed Structurally
+Intellectual Product,conceptual_part_of,Diagnostic Procedure
+Intellectual Product,conceptual_part_of,Intellectual Product
+Intellectual Product,isa,Conceptual Entity
+Laboratory Procedure,analyzes,Body Substance
+Laboratory Procedure,analyzes,Chemical
+Laboratory Procedure,assesses_effect_of,Chemical
+Laboratory Procedure,assesses_effect_of,Natural Phenomenon or Process
+Laboratory Procedure,diagnoses,Anatomical Abnormality
+Laboratory Procedure,diagnoses,Injury or Poisoning
+Laboratory Procedure,diagnoses,Pathologic Function
+Laboratory Procedure,isa,Health Care Activity
+Laboratory Procedure,measures,Body Substance
+Laboratory Procedure,measures,Chemical
+Laboratory Procedure,measures,Natural Phenomenon or Process
+Laboratory Procedure,measures,Organism Attribute
+Laboratory Procedure,measures,Quantitative Concept
+Laboratory Procedure,measures,Temporal Concept
+Laboratory Procedure,method_of,Diagnostic Procedure
+Laboratory Procedure,method_of,Laboratory Procedure
+Laboratory Procedure,method_of,Therapeutic or Preventive Procedure
+Laboratory or Test Result,conceptual_part_of,Laboratory or Test Result
+Laboratory or Test Result,indicates,Anatomical Abnormality
+Laboratory or Test Result,indicates,Biologic Function
+Laboratory or Test Result,indicates,Injury or Poisoning
+Laboratory or Test Result,isa,Finding
+Laboratory or Test Result,measurement_of,Physiologic Function
+Laboratory or Test Result,measurement_of,Substance
+Laboratory or Test Result,result_of,Diagnostic Procedure
+Laboratory or Test Result,result_of,Laboratory Procedure
+Language,isa,Conceptual Entity
+Machine Activity,isa,Activity
+Machine Activity,method_of,Diagnostic Procedure
+Machine Activity,method_of,Laboratory Procedure
+Machine Activity,method_of,Therapeutic or Preventive Procedure
+Mammal,isa,Vertebrate
+Manufactured Object,causes,Anatomical Abnormality
+Manufactured Object,causes,Injury or Poisoning
+Manufactured Object,causes,Pathologic Function
+Manufactured Object,isa,Physical Object
+Medical Device,isa,Manufactured Object
+Medical Device,prevents,Injury or Poisoning
+Medical Device,prevents,Pathologic Function
+Medical Device,treats,Anatomical Abnormality
+Medical Device,treats,Injury or Poisoning
+Medical Device,treats,Pathologic Function
+Medical Device,treats,Sign or Symptom
+Mental Process,affects,Behavior
+Mental Process,isa,Organism Function
+Mental Process,process_of,Bacterium
+Mental Process,process_of,Fungus
+Mental Process,process_of,Plant
+Mental Process,process_of,Virus
+Mental Process,result_of,Behavior
+Mental or Behavioral Dysfunction,affects,Behavior
+Mental or Behavioral Dysfunction,isa,Disease or Syndrome
+Mental or Behavioral Dysfunction,process_of,Bacterium
+Mental or Behavioral Dysfunction,process_of,Fungus
+Mental or Behavioral Dysfunction,process_of,Plant
+Mental or Behavioral Dysfunction,process_of,Virus
+Molecular Biology Research Technique,isa,Research Activity
+Molecular Biology Research Technique,method_of,Diagnostic Procedure
+Molecular Biology Research Technique,method_of,Therapeutic or Preventive Procedure
+Molecular Function,isa,Physiologic Function
+Molecular Sequence,isa,Spatial Concept
+Natural Phenomenon or Process,affects,Natural Phenomenon or Process
+Natural Phenomenon or Process,isa,Phenomenon or Process
+Natural Phenomenon or Process,process_of,Natural Phenomenon or Process
+Neoplastic Process,isa,Disease or Syndrome
+"Nucleic Acid, Nucleoside, or Nucleotide",isa,Organic Chemical
+Nucleotide Sequence,isa,Molecular Sequence
+Nucleotide Sequence,part_of,Nucleotide Sequence
+Nucleotide Sequence,property_of,Gene or Genome
+Nucleotide Sequence,property_of,"Nucleic Acid, Nucleoside, or Nucleotide"
+Occupation or Discipline,conceptual_part_of,Occupation or Discipline
+Occupation or Discipline,isa,Conceptual Entity
+Occupational Activity,associated_with,Anatomical Abnormality
+Occupational Activity,associated_with,Injury or Poisoning
+Occupational Activity,associated_with,Pathologic Function
+Occupational Activity,isa,Activity
+Occupational Activity,method_of,Occupation or Discipline
+Organ or Tissue Function,conceptual_part_of,Temporal Concept
+Organ or Tissue Function,degree_of,Organ or Tissue Function
+Organ or Tissue Function,isa,Physiologic Function
+Organ or Tissue Function,occurs_in,Organism Function
+Organic Chemical,isa,Chemical Viewed Structurally
+Organism Attribute,associated_with,Organism Attribute
+Organism Attribute,degree_of,Organism Attribute
+Organism Attribute,isa,Conceptual Entity
+Organism Attribute,manifestation_of,Physiologic Function
+Organism Attribute,measurement_of,Physiologic Function
+Organism Attribute,property_of,Organism
+Organism Attribute,result_of,Phenomenon or Process
+Organism Function,conceptual_part_of,Temporal Concept
+Organism Function,degree_of,Organism Function
+Organism Function,isa,Physiologic Function
+Organism Function,produces,Age Group
+Organism Function,produces,Family Group
+Organism,interacts_with,Organism
+Organism,isa,Physical Object
+Organization,carries_out,Occupational Activity
+Organization,isa,Conceptual Entity
+Organization,location_of,Occupational Activity
+Organization,produces,Intellectual Product
+Pathologic Function,associated_with,Organism Attribute
+Pathologic Function,associated_with,Pathologic Function
+Pathologic Function,co-occurs_with,Anatomical Abnormality
+Pathologic Function,co-occurs_with,Injury or Poisoning
+Pathologic Function,co-occurs_with,Pathologic Function
+Pathologic Function,complicates,Anatomical Abnormality
+Pathologic Function,complicates,Injury or Poisoning
+Pathologic Function,complicates,Pathologic Function
+Pathologic Function,degree_of,Pathologic Function
+Pathologic Function,isa,Biologic Function
+Pathologic Function,manifestation_of,Injury or Poisoning
+Pathologic Function,manifestation_of,Pathologic Function
+Pathologic Function,manifestation_of,Physiologic Function
+Pathologic Function,occurs_in,Disease or Syndrome
+Pathologic Function,occurs_in,Group
+Pathologic Function,occurs_in,Injury or Poisoning
+Pathologic Function,precedes,Pathologic Function
+Pathologic Function,result_of,Behavior
+Pathologic Function,result_of,Health Care Activity
+Patient or Disabled Group,isa,Group
+Pharmacologic Substance,complicates,Anatomical Abnormality
+Pharmacologic Substance,complicates,Biologic Function
+Pharmacologic Substance,complicates,Injury or Poisoning
+Pharmacologic Substance,diagnoses,Pathologic Function
+Pharmacologic Substance,disrupts,Embryonic Structure
+Pharmacologic Substance,disrupts,Fully Formed Anatomical Structure
+Pharmacologic Substance,disrupts,Physiologic Function
+Pharmacologic Substance,isa,Chemical Viewed Functionally
+Pharmacologic Substance,prevents,Pathologic Function
+Pharmacologic Substance,treats,Anatomical Abnormality
+Pharmacologic Substance,treats,Injury or Poisoning
+Pharmacologic Substance,treats,Pathologic Function
+Pharmacologic Substance,treats,Sign or Symptom
+Phenomenon or Process,isa,Event
+Phenomenon or Process,result_of,Anatomical Abnormality
+Phenomenon or Process,result_of,Phenomenon or Process
+Physical Object,isa,Entity
+Physiologic Function,affects,Organism Attribute
+Physiologic Function,co-occurs_with,Physiologic Function
+Physiologic Function,isa,Biologic Function
+Physiologic Function,occurs_in,Temporal Concept
+Physiologic Function,precedes,Physiologic Function
+Plant,isa,Eukaryote
+Plant,location_of,Biologically Active Substance
+Population Group,associated_with,Anatomical Abnormality
+Population Group,associated_with,Injury or Poisoning
+Population Group,associated_with,Pathologic Function
+Population Group,isa,Group
+Professional Society,isa,Organization
+Professional or Occupational Group,diagnoses,Pathologic Function
+Professional or Occupational Group,isa,Group
+Professional or Occupational Group,manages,Organization
+Professional or Occupational Group,practices,Occupation or Discipline
+Professional or Occupational Group,treats,Patient or Disabled Group
+Qualitative Concept,evaluation_of,Activity
+Qualitative Concept,isa,Idea or Concept
+Quantitative Concept,conceptual_part_of,Therapeutic or Preventive Procedure
+Quantitative Concept,isa,Idea or Concept
+Quantitative Concept,measurement_of,Physiologic Function
+Quantitative Concept,measurement_of,Spatial Concept
+Receptor,isa,Biologically Active Substance
+Regulation or Law,affects,Group
+Regulation or Law,affects,Organization
+Regulation or Law,isa,Intellectual Product
+Reptile,isa,Vertebrate
+Research Activity,affects,Mental Process
+Research Activity,isa,Occupational Activity
+Research Activity,measures,Body Substance
+Research Activity,measures,Chemical
+Research Activity,measures,Natural Phenomenon or Process
+Research Activity,measures,Organism Attribute
+Research Activity,measures,Quantitative Concept
+Research Activity,measures,Temporal Concept
+Research Activity,uses,Research Device
+Research Device,isa,Manufactured Object
+Self-help or Relief Organization,isa,Organization
+Self-help or Relief Organization,manages,Patient or Disabled Group
+Sign or Symptom,degree_of,Sign or Symptom
+Sign or Symptom,diagnoses,Anatomical Abnormality
+Sign or Symptom,diagnoses,Injury or Poisoning
+Sign or Symptom,diagnoses,Pathologic Function
+Sign or Symptom,isa,Finding
+Social Behavior,conceptual_part_of,Social Behavior
+Social Behavior,isa,Behavior
+Spatial Concept,isa,Idea or Concept
+Substance,causes,Anatomical Abnormality
+Substance,causes,Injury or Poisoning
+Substance,causes,Pathologic Function
+Substance,ingredient_of,Clinical Drug
+Substance,isa,Physical Object
+Temporal Concept,conceptual_part_of,Cell Function
+Temporal Concept,conceptual_part_of,Organ or Tissue Function
+Temporal Concept,conceptual_part_of,Organism Function
+Temporal Concept,conceptual_part_of,Temporal Concept
+Temporal Concept,isa,Idea or Concept
+Therapeutic or Preventive Procedure,affects,Patient or Disabled Group
+Therapeutic or Preventive Procedure,complicates,Biologic Function
+Therapeutic or Preventive Procedure,isa,Health Care Activity
+Therapeutic or Preventive Procedure,method_of,Therapeutic or Preventive Procedure
+Therapeutic or Preventive Procedure,prevents,Pathologic Function
+Therapeutic or Preventive Procedure,treats,Anatomical Abnormality
+Therapeutic or Preventive Procedure,treats,Injury or Poisoning
+Therapeutic or Preventive Procedure,treats,Pathologic Function
+Therapeutic or Preventive Procedure,treats,Sign or Symptom
+Therapeutic or Preventive Procedure,uses,Food
+Therapeutic or Preventive Procedure,uses,Manufactured Object
+Therapeutic or Preventive Procedure,uses,Pharmacologic Substance
+Tissue,adjacent_to,Body Space or Junction
+Tissue,adjacent_to,Tissue
+Tissue,conceptual_part_of,Body System
+Tissue,consists_of,Tissue
+Tissue,developmental_form_of,"Body Part, Organ, or Organ Component"
+Tissue,developmental_form_of,Tissue
+Tissue,isa,Fully Formed Anatomical Structure
+Tissue,location_of,Body Space or Junction
+Tissue,location_of,Diagnostic Procedure
+Tissue,location_of,Therapeutic or Preventive Procedure
+Tissue,part_of,"Body Part, Organ, or Organ Component"
+Tissue,part_of,Tissue
+Tissue,surrounds,Body Space or Junction
+Tissue,surrounds,Body Substance
+Tissue,surrounds,Cell Component
+Tissue,surrounds,Cell
+Tissue,surrounds,Tissue
+Vertebrate,isa,Animal
+Virus,causes,Pathologic Function
+Virus,isa,Organism
+Virus,location_of,Biologically Active Substance
+Vitamin,isa,Biologically Active Substance
