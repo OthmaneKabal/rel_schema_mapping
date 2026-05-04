@@ -1,0 +1,4 @@
+EDC/*.jsonl
+EDC/*_kg.json
+EDC/previous_results/*.json
+EDC/previous_results/*.jsonl
